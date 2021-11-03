@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Crazy Quiz</title>
+</head>
+
+<body>
+    <div id="timing">Time remaining:<span id="time">0</span></div>
+    <div id="high-score"><a href="scores.html">View High Scores</a></div>
+    <div id="start-page">
+        <h1>Crazy Quiz</h1>
+        <button id="start-btn">Start Game</button>
+    </div>
+    <div id="qa-page" class="hide">
+        <h2 id="display-question">Test Question</h2>
+        <button id="answer-1">Answer 1</button>
+        <button id="answer-2">Answer 2</button>
+        <button id="answer-3">Answer 3</button>
+        <button id="answer-4">Answer 4</button>
+    </div>
+    <div id="results" class="hide">
+        <h3>Game Over</h3>
+        Please enter Initials:<input id="initials" max="3" />
+        Your Score Is: <span id="player-score">0</span>
+        <button id="submit-btn">Submit Score</button>
+    </div>
+
+
+    <script src="./assets/js/script.js"></script>
+
+
+</body>
+
+</html>
