@@ -1,3 +1,69 @@
+body {
+  background-color: #0b0c10;
+}
+
+header {
+  width: 100%;
+  background-color: #0b0c10;
+}
+
+header div {
+  margin: 25px;
+  font-size: 30px;
+  color: #45a29e;
+}
+
+#timing {
+  display: inline-block;
+  text-align: left;
+}
+
+#high-score {
+  float: right;
+  text-align: right;
+}
+
+#high-score a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#start-page,
+#qa-page,
+#results {
+  margin: auto;
+  width: 50%;
+  height: 75%;
+  text-align: center;
+  line-height: 100px;
+  background-color: #1f2833;
+  border: #45a29e 2px solid;
+  border-radius: 25px;
+}
+
+body h1 {
+  font-size: 120px;
+  color: #66fcf1;
+}
+
+body h2,
+h3 {
+  font-size: 30px;
+  color: #66fcf1;
+}
+
+button {
+  font-size: 32px;
+  color: #45a29e;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.btn {
+  /* margin-left: 30px; */
+  width: 80%;
+}
+
 .hide {
   display: none;
 }
