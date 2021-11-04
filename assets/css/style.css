@@ -60,8 +60,21 @@ button {
 }
 
 .btn {
-  /* margin-left: 30px; */
   width: 80%;
+}
+
+#results {
+  color: #66fcf1;
+  font-size: 20px;
+}
+
+input {
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #66fcf1;
+  background-color: #0b0c10;
+  border: #45a29e 2px solid;
 }
 
 .hide {
